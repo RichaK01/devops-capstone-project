@@ -14,6 +14,7 @@ spec:
   params:
     - name: repo-url
     - name: branch
+    - name: build-image
       default: main
   tasks:
     - name: init
@@ -78,4 +79,3 @@ spec:
       runAfter:
         - tests
         - lint
-        
